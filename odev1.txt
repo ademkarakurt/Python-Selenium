@@ -1,19 +1,23 @@
-Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+1) Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
 
     Python da integer, float olarak iki tip sayı tipi bulunmaktadır. İnteger tipi tam sayı değerli olan sayıların veri türüyken, float tipi ise ondalıklı sayı tipidir.
+Ayrıca kompleks sayıları içinde comlex verü tipide vardır.
 sayi = 1
 print("sayi: ",  type(sayi))
         sayi:  <class 'int'>
 sayi2 = 1.12
 print("sayi2: ",  type(sayi2))
        sayi2:  <class 'float'>
+kompleks= 57j
+print("kompleks: ", type(kompleks))
+        kompleks:  <class 'complex'>
 
     Veri tipi olarak metinsel ifadelerin kaydedildiği string veri tipi de vardır.
 metin= "Merhaba"
 print("metin: " ,type(metin))
       metin:  <class 'str'>
 
-    Liste türlerinin kaydedildiği list, tuple ve ayrıca hem anahtar hem de değerin aynı anda kaydedildiği dictionary tipinde veri türleri de vardır.
+    Liste türlerinin kaydedildiği list, sonradan değişiklik yapılamayan tuple ve ayrıca hem anahtar hem de değerin aynı anda kaydedildiği dictionary tipinde  listeleme veri türleri de vardır.
 degismezListe = ("12","25")print("degismezListe: ", type(degismezListe))
         degismezListe:  <class 'tuple'>
 liste = ["12","25"]
@@ -22,7 +26,24 @@ print("liste: ", type(liste))
 dis={"anahtar": deger}
 print("dis: ", type(dis))
        dis:  <class 'dict'>
+Python da true ve false degerlerinin tutuldugu "boolean" veri tipi de bulunmaktadır.
+deger = 1 > 0
+print("deger: ", type(deger))
+        deger:  <class 'bool'
 
+
+2) Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+        Ödev veirlen linkteki sayfaya bakıldıgında en cok string veri tipinin kullanıldıgı görülmektedir. Ayrica "...% tamamlandı " kısmında oldugu gibi integer tipinde veri kullanılmaktadır.
+        Yorum yapılarak bir şeylerin eklendiği alan da dictionary veri türü kullanıldığını düşünüyorum. Çünkü "key" kısmı kulllanıcı ile kaydedğilirken eklediği yorumlar "value" ile kaydedilmektedir.
+        Yine bölümün tamamlandıgını gösteren onay işareti çıkması boolean tipinin kullanıldıgını göstermektedir.
+
+3) Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+        Şart bloklarının kullanıldıgı yerler: ekranınn solunda bulunan haftalık ilerleme durumunu gösteren kısımdaki onay işareti kısmının değişmesi.
+        Yüne yukarıda ilerleme kısmına göre "...% tamamlandı " değerinin gösterilmesi.
+        Önceki ve sonraki kısma gidilirken o butonların tıklanılması.
+Kod örneği olarak:
+        if ilerlemeDurumu == 100 :
+                onayİsareti == True
 
 
 
