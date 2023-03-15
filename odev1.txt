@@ -1,0 +1,30 @@
+Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+    Python da integer, float olarak iki tip sayı tipi bulunmaktadır. İnteger tipi tam sayı değerli olan sayıların veri türüyken, float tipi ise ondalıklı sayı tipidir.
+sayi = 1
+print("sayi: ",  type(sayi))
+        sayi:  <class 'int'>
+sayi2 = 1.12
+print("sayi2: ",  type(sayi2))
+       sayi2:  <class 'float'>
+
+    Veri tipi olarak metinsel ifadelerin kaydedildiği string veri tipi de vardır.
+metin= "Merhaba"
+print("metin: " ,type(metin))
+      metin:  <class 'str'>
+
+    Liste türlerinin kaydedildiği list, tuple ve ayrıca hem anahtar hem de değerin aynı anda kaydedildiği dictionary tipinde veri türleri de vardır.
+degismezListe = ("12","25")print("degismezListe: ", type(degismezListe))
+        degismezListe:  <class 'tuple'>
+liste = ["12","25"]
+print("liste: ", type(liste))
+       liste:  <class 'list'>
+dis={"anahtar": deger}
+print("dis: ", type(dis))
+       dis:  <class 'dict'>
+
+
+
+
+
+        
