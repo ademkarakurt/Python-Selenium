@@ -1,4 +1,5 @@
 from selenium import webdriver
+from time import sleep
 from selenium.webdriver.common.by import By
 
 class Test_Sauce:
@@ -52,6 +53,7 @@ class Test_Sauce:
         loginButonu.click()
         errorButton = driver.find_element(By.CLASS_NAME,"error-button")
         errorButton.click()
+        sleep(5)
         print("Error buton kapatildi")
     def prodoctCounter(self):
         driver = webdriver.Chrome()
